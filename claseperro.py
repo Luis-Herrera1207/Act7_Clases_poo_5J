@@ -3,7 +3,7 @@ print("--Programacion POO--")
 class Perro:
     # funciones dentro de la cla
     def morder(self):
-        print("El perro me mordio")
+        print("El perro me ladro")
     def Datos_perro(self,nombre,edad):
             print(f" Nombre : {nombre} edad : {edad}")
 
@@ -13,5 +13,5 @@ pitbull=Perro()
 
 # zona de uso de objetos
 
-pitbull.Datos_perro("boby",4)
+pitbull.Datos_perro("Rocky",4)
 pitbull.morder()
